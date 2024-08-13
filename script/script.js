@@ -2,8 +2,19 @@ document.querySelector(".js-add").addEventListener('click', () => {
 
     
 
-    for(let i=0; i.){
+    addTodo();
+    
 
-    }
+    })
 
-})
+const todoList = [];
+
+const addTodo = () => {
+   const inputElement = document.querySelector(".js-input")
+   const name = inputElement.value;
+
+   todoList.push(name);
+
+   
+
+}
